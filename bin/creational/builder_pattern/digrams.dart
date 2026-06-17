@@ -1,0 +1,20 @@
+// ┌──────────────┐         ┌─────────────┐
+// │   Pizza      │◄────────│ PizzaBuilder│
+// ├──────────────┤  builds ├─────────────┤
+// │ - size       │         │ + setSize() │
+// │ - cheese     │         │ + addCheese │
+// │ - pepperoni  │         │ + addPepper │
+// │ - mushrooms  │         │ + addMushr  │
+// │ - olives     │         │ + setCrust  │
+// │ - crustType  │         │ + build()   │
+// └──────────────┘         └─────────────┘
+//                                ▲
+//                                │
+//                          ┌─────┴─────┐
+//                          │ Director  │
+//                          ├───────────┤
+//                          │ + make    │
+//                          │   Veggie()│
+//                          │ + make    │
+//                          │   Meat()  │
+//                          └───────────┘
