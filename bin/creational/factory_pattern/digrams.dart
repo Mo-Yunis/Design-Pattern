@@ -59,7 +59,7 @@
 // │  else if (type == 'crypto') new CryptoPayment()   ← ADD THIS IN 50 files│
 // │  else if (type == 'bank') new BankTransfer()      ← ADD THIS IN 50 files│
 // │                                                                         │
-// │  ❌ You have to modify 50+ files each time you add a new payment type    │
+// │  ❌ You have to modify 50+ files each time you add a new payment type   │
 // └─────────────────────────────────────────────────────────────────────────┘
 //                                     │
 //                                     ▼
@@ -79,5 +79,5 @@
 // │    }                                                                    │
 // │  }                                                                      │
 // │                                                                         │
-// │  ✅ Modify ONLY 1 file when adding new payment types                     │
+// │  ✅ Modify ONLY 1 file when adding new payment types                    │
 // └─────────────────────────────────────────────────────────────────────────┘
